@@ -37,6 +37,7 @@ button.onclick = function () {
   const parent = document.getElementById("wrapper");
 
   let clonedElement = paragraf1.cloneNode(true);
+  clonedElement.id = "p2";
   parent.append(clonedElement);
   //   let clonedElement = parent.append(newElement);
 };
