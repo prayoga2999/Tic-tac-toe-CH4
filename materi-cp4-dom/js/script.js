@@ -28,16 +28,44 @@
 //   paragraf.style.backgroundColor = "red";
 // });
 
-const button = document.getElementById("add");
-const paragraf1 = document.getElementById("p1");
-// let newElement = document.createElement("div");
-// newElement.innerText = "New Element";
+// const button = document.getElementById("add");
+// const paragraf1 = document.getElementById("p1");
+// // let newElement = document.createElement("div");
+// // newElement.innerText = "New Element";
 
-button.onclick = function () {
-  const parent = document.getElementById("wrapper");
+// button.onclick = function () {
+//   const parent = document.getElementById("wrapper");
 
-  let clonedElement = paragraf1.cloneNode(true);
-  clonedElement.id = "p2";
-  parent.append(clonedElement);
-  //   let clonedElement = parent.append(newElement);
-};
+//   let clonedElement = paragraf1.cloneNode(true);
+//   clonedElement.id = "p2";
+//   parent.append(clonedElement);
+//   //   let clonedElement = parent.append(newElement);
+// };
+
+// const parent = document.getElementById("wrapper");
+
+// const daftarBuah = ["semangka", "mangga", "anggur", "leci", "durian"];
+
+// // daftarBuah.forEach((buah) => {
+// //   const parent = document.getElementById("wrapper");
+// //   let newElement = document.createElement('div')
+// //   newElement.innerText = buah;
+// //   newElement.style.padding = "5px";
+// //   newElement.style.border = "1px solid black";
+// //   parent.append(newElement);
+// // });
+
+// for (let x = 0; x < daftarBuah.length; x++) {
+//   const parent = document.getElementById("wrapper");
+//   let newElement = document.createElement("div");
+//   newElement.innerText = daftarBuah[x];
+//   newElement.style.padding = "5px";
+//   newElement.style.border = "1px solid black";
+//   parent.append(newElement);
+// }
+
+// const hitungDiskon = (diskon, harga) => {
+//   return (diskon / 100) * harga;
+// };
+
+const hitungDiskon = (diskon, harga) => (diskon / 100) * harga;
