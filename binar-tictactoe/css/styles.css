@@ -11,6 +11,8 @@
   height: 50px;
   border: 1px solid black;
   cursor: pointer;
+  font-size: 30px;
+  text-align: center;
 }
 
 .box:first-child,
@@ -34,7 +36,7 @@
 }
 
 .cross {
-  background-color: "yellow" !important;
+  background-color: aquamarine !important;
 }
 
 .circle {
